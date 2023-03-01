@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("https://png.pngtree.com/background/20210714/original/pngtree-scene-with-geometrical-forms-and-textured-background-for-cosmetic-product-3d-picture-image_1223477.jpg");
+        }
+    </style>
+    <form class="input-fields">
+          <h1  id="heading"style="text-align: center;">Resume Generator</h1>
+          <input type="text" name="name" placeholder="Name" />
+          <input type="text" name="title" placeholder="Title eg Web developer" />
+          <textarea name="workexp" placeholder="Work Experience"></textarea>
+          <textarea name="academics" placeholder="Academic Details"></textarea>
+          <input name="objective" placeholder="Objective" />
+          <textarea name="skills" placeholder="Skills" ></textarea>
+          <textarea name="projects" placeholder="projects" ></textarea>
+          <textarea name="achievements" placeholder="Achievements" ></textarea>
+          <textarea name="contact" placeholder="Contact" ></textarea>
+    </form>
+     <!-- resume preview -->
+    <div class="output">
+   
+    </div>  
+    <!-- button for toggle   -->
+   <div class="btn">
+        <button onclick="toggle()">Preview or Edit</button>
+   </div>
+   <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
